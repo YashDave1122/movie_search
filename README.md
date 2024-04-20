@@ -39,7 +39,7 @@ This documentation outlines the design and development details of a Movie Search
 
    g.API Integration
     
-     The TMDB API is integrated to fetch movie data. API calls are encapsulated within repository classes (MovieRepository) to manage data retrieval.
+     The TMDB API is integrated to fetch movie data. 
 
    h.Clean Code Practices
    
