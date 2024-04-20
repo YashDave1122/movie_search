@@ -11,7 +11,7 @@ This documentation outlines the design and development details of a Movie Search
 
     Displays a list of top-rated movies on the homepage.
 
-    Initially shows only 5 movies and loads more as the user scrolls down (infinite scrolling).
+    .
 
   b.Search Functionality:
 
