@@ -15,15 +15,65 @@ This documentation outlines the design and development details of a Movie Search
 
   b.Search Functionality:
 
-a.Users can search for movies by typing the movie name.
+    Users can search for movies by typing the movie name.
 
-b.Search results are displayed dynamically as the user types.
+    Search results are displayed dynamically as the user types.
 
-4.Sorting Movies:
+  c.Sorting Movies:
 
-a.Provides options to sort movies by year, popularity, and IMDb rating.
+    Provides options to sort movies by year, popularity, and IMDb rating.
 
-5.Movie Details Display:
+  d.Movie Details Display:
 
-a.Shows movie details including name, poster, year, and IMDb rating.
+    Shows movie details including name, poster, year, and IMDb rating.
 
+  e.Components and Reusability
+  
+     The application is designed with reusability in mind to avoid code duplication.
+
+   f.Reusable Widgets:
+   
+     MovieCard: Displays basic information about a movie (name, poster, year, rating).
+     
+     SortOptions: Presents selectable sorting options (by year, popularity, IMDb rating).
+
+   g.API Integration
+    
+     The TMDB API is integrated to fetch movie data. API calls are encapsulated within repository classes (MovieRepository) to manage data retrieval.
+
+   h.Clean Code Practices
+   
+    Descriptive variable and function names.
+     
+    Proper commenting and documentation for clarity.
+    
+    Modular and reusable components to enhance maintainability.
+
+   i.Development Environment
+   
+    Flutter SDK: Version 2.10.3
+    
+    Dart SDK: Version 2.15.0
+
+   j.Running the Application
+     
+    To run the Movie Search Application:
+
+     Clone the repository. 
+     Ensure Flutter SDK is installed and configured.
+     Install dependencies using flutter pub get.
+     Run the application using flutter run.
+
+  h. Future Improvements
+  
+      Future enhancements can include:
+
+        Implementing additional filters (genre, language) for search and sorting.
+        Adding user authentication and personalization features.
+        Enhancing UI/UX for a smoother user experience.
+
+        
+   i.Conclusion
+   
+      The Movie Search Application is a Flutter-based project that demonstrates fundamental Flutter concepts such as API integration, state management, and UI design. It provides a foundation for building 
+      more complex movie-related applications and showcases best practices in Flutter development.
